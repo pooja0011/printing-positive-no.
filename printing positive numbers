@@ -1,0 +1,9 @@
+list1 = [12,-7,5,64,-14]
+list2 = [12,14,-95,3]
+
+#using list comprehension
+pos_no1 = [num for num in list1 if num >= 0 ]
+pos_no2 = [num for num in list2 if num >= 0 ]
+
+print ("print positive numbers in list1 :" , *pos_no1 )
+print ("print positive numbers in list2 :" , *pos_no2 )
